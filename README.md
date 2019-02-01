@@ -12,4 +12,10 @@ In iTunes, select the menu item "File" -> "Library" -> "Export Library...".
 
 ## Running
 
-Run `bundle exec itunes_export_albums.rb /path/to/Library.xml`
+Running the following will print the output to `STDIN`:
+
+	bundle exec itunes_export_albums.rb /path/to/Library.xml
+
+To also save the result to a file named `Albums.txt`
+
+	bundle exec itunes_export_albums.rb /path/to/Library.xml > Albums.txt
