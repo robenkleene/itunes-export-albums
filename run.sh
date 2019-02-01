@@ -14,4 +14,4 @@ if [[ ! -f "Library.xml" ]]; then
   exit 1
 fi
 
-bundle exec itunes_export_albums.rb Library.xml > Albums.txt
+bundle exec itunes_export_albums.rb Library.xml | sort > Albums.txt

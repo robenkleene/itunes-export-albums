@@ -20,4 +20,4 @@ To also save the result to a file named `Albums.txt`
 
 	bundle exec itunes_export_albums.rb /path/to/Library.xml > Albums.txt
 
-If the `Library.xml` file has been copied into the root directory, the shell script `run.sh` can be run instead to just output the albums to a `Albums.txt` file.
+If the `Library.xml` file has been copied into the root directory, the shell script `./run.sh` can be run instead to just output the albums to a `Albums.txt` file (this also sorts the albums alphabetically by artist).
