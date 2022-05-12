@@ -1,3 +1,3 @@
 source "https://rubygems.org"
-ruby '2.5.3'
+ruby '3.0.2'
 gem 'nokogiri'
